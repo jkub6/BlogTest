@@ -1,0 +1,125 @@
+---
+title: 'May 2023 Update'
+author: 'Jacob Larkin'
+date: "2023-05-31"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+<!-- ![](ratio-christi-logo.png) -->
+[![](ratio-christi-logo.webp){fig-alt='Ratio Christi Logo'}](https://ratiochristi.org)
+
+
+Hello friends,
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis
+tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec
+ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit
+amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor
+lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius
+sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem,
+tristique tempor tortor.^[This is a test footnote here.]
+
+Test Authorson writes:
+
+> Here is a Quote I found the other day. It is a fairly long quote that I am
+going to include here. One more line and then It will probably good. Here is
+That final line.^[@test_citation]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis
+tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec
+ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit
+amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor
+lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius
+sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem,
+tristique tempor tortor.
+
+```{python}
+#| label: tbl-planet-measures
+#| tbl-cap: Planets
+
+from IPython.display import Markdown
+from tabulate import tabulate
+table = [["Sun",696000,1989100000],
+         ["Earth",6371,5973.6],
+         ["Moon",1737,73.5],
+         ["Mars",3390,641.85]]
+Markdown(tabulate(
+  table, 
+  headers=["Planet","R (km)", "mass (x 10^29 kg)"]
+))
+```
+
+Fusce eget nisl lobortis leo porta dapibus. Nam interdum semper pretium.
+Pellentesque lorem est, porttitor sit amet nunc vitae, tempus semper augue.
+Nam dictum lorem orci, vitae feugiat augue suscipit non. Sed vel quam eu sapien
+aliquet mattis. Proin dapibus massa dolor, sit amet viverra magna accumsan
+quis. Praesent cursus efficitur orci at volutpat. Nam iaculis risus ut laoreet
+ullamcorper. Aliquam a diam id magna aliquam eleifend. Aliquam erat volutpat.
+Aenean eu ante et orci maximus lacinia. Suspendisse et felis ipsum. Sed ut nisl
+eget urna luctus blandit ut sit amet neque. Cras vel dui ut elit bibendum
+tincidunt. This is a test verse: John 1:3-4.
+
+Ut arcu ex, convallis a est id, porttitor pharetra leo. Ut lobortis nisi nisi,
+at semper elit tincidunt nec. Ut commodo dictum vehicula. Phasellus eget ligula
+purus. Duis eget tortor sed arcu tincidunt condimentum in vel orci. Pellentesque
+ut risus est. Vestibulum sed massa laoreet, pharetra metus ut, interdum enim.
+Morbi placerat, tellus quis venenatis fringilla, diam tellus tincidunt urna, eu
+luctus dolor risus quis felis. Proin semper tortor vitae semper rutrum. Mauris
+fermentum, libero sed viverra laoreet, purus purus mollis diam, eget congue
+elit dolor at odio. Nulla commodo arcu ex. In at ligula at lectus dignissim
+euismod. Duis faucibus metus a aliquam dignissim. Maecenas dignissim lacinia
+est, ut iaculis enim suscipit non. Quisque condimentum maximus eros id
+vestibulum.
+
+::: {.callout-tip}
+## Recent Reading
+
+- *Cold Case Christianity* - J. Warner Wallace
+- *Mere Christianity* - C.S. Lewis
+- *Test Here* - Another Book Author
+:::
+
+Curabitur elementum velit ut pretium semper. Praesent semper convallis dui ut
+sagittis. Morbi eu est quam. Sed sodales, ligula sed rhoncus iaculis, ipsum
+elit condimentum lacus, id pharetra diam nulla eu odio. Duis pulvinar suscipit
+ex. Phasellus quis tempus felis. Vestibulum mattis imperdiet sodales. Cras
+finibus porta maximus. Quisque dictum mauris vel ipsum ullamcorper elementum.
+Sed vitae dolor non neque ullamcorper pulvinar. Mauris tincidunt quam in mi
+imperdiet euismod. Vestibulum eget enim nunc.
+
+::: {.callout-note icon=false appearance='simple'}
+## Test Note
+
+Note that this is a test note callout block here.
+
+```r
+library(tidyverse)
+library(palmerpenguins)
+penguins |>                                      # <1>
+  mutate(                                        # <2>
+    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
+    bill_area  = bill_depth_mm * bill_length_mm  # <2>
+  )                                              # <2>
+```
+:::
+
+Duis nisl tortor, consectetur sed hendrerit at, dictum at odio. Sed vel arcu
+non nibh ultrices blandit eget et nisl. Quisque feugiat, tellus sit amet
+suscipit pulvinar, est orci tristique quam, non interdum dui turpis vel nisi.
+Mauris at erat ut mi vestibulum finibus. Mauris vitae eleifend lacus. Cras
+condimentum luctus orci, quis fermentum dolor suscipit fringilla. Aenean
+porttitor placerat libero eu accumsan. Nam nec turpis feugiat, efficitur lectus
+at, mollis velit.
+  
+  
+*Blah blah,*  
+*Jacob Larkin*
+
+Join My Support Team
+
+# References {.unnumbered .appendix}
+
+::: {#refs}
+:::
+

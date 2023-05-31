@@ -1,0 +1,68 @@
+project:
+  title: 'Blog Test'
+  type: website
+  output-dir: "_build"
+
+website:
+  title: 'Blog Test'
+  site-url: https://todofixme.com/site
+  description: 'Test description fix me'
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+      - icon: rss
+        href: index.xml
+  # reader-mode: true
+  # repo-url: https://github.com/jkub6/website
+  # repo-actions: [edit, issue]
+  page-navigation: true
+  page-footer:
+    center: 'Join My Support Team'
+    border: true
+  body-header: |
+    <script>
+    var refTagger = {
+        settings: {
+            bibleVersion: "ESV",
+            caseInsensitive: !false,
+            noSearchTagNames: [],
+            roundCorners: true,
+            socialSharing: ["google"],
+            tagChapters: true,
+            customStyle : {
+                heading: {
+                    backgroundColor : "#f8f9fa",
+                    color : "#000000"
+                },
+                body   : {
+                    color : "#000000",
+                    fontSize: "18px"
+                }
+            }
+        }
+    };
+    (function(d, t) {
+        var n=d.querySelector("[nonce]");
+        refTagger.settings.nonce = n && (n.nonce||n.getAttribute("nonce"));
+        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        g.src = "https://api.reftagger.com/v2/RefTagger.js";
+        g.nonce = refTagger.settings.nonce;
+        s.parentNode.insertBefore(g, s);
+    }(document, "script"));
+    </script>
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+bibliography: "bibliography.bib"
+csl: ./styles/chicago-note-bibliography-with-ibid.csl
+# csl: ./styles/chicago-author-date.csl
+# csl: ./styles/chicago-fullnote-bibliography.csl
+# csl: "./styles/society-of-biblical-literature-author-date.csl"
+# csl: "./styles/society-of-biblical-literature-fullnote-bibliography.csl"

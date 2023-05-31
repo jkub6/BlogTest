@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog Index",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 31, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 28, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "May 2023 Update",
+    "section": "",
+    "text": "Hello friends,\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem, tristique tempor tortor.1\nTest Authorson writes:\n\nHere is a Quote I found the other day. It is a fairly long quote that I am going to include here. One more line and then It will probably good. Here is That final line.2\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem, tristique tempor tortor.\n\nfrom IPython.display import Markdown\nfrom tabulate import tabulate\ntable = [[\"Sun\",696000,1989100000],\n         [\"Earth\",6371,5973.6],\n         [\"Moon\",1737,73.5],\n         [\"Mars\",3390,641.85]]\nMarkdown(tabulate(\n  table, \n  headers=[\"Planet\",\"R (km)\", \"mass (x 10^29 kg)\"]\n))\n\n\n\nTable 1: Planets\n\n\nPlanet\nR (km)\nmass (x 10^29 kg)\n\n\n\n\nSun\n696000\n1.9891e+09\n\n\nEarth\n6371\n5973.6\n\n\nMoon\n1737\n73.5\n\n\nMars\n3390\n641.85\n\n\n\n\n\n\nFusce eget nisl lobortis leo porta dapibus. Nam interdum semper pretium. Pellentesque lorem est, porttitor sit amet nunc vitae, tempus semper augue. Nam dictum lorem orci, vitae feugiat augue suscipit non. Sed vel quam eu sapien aliquet mattis. Proin dapibus massa dolor, sit amet viverra magna accumsan quis. Praesent cursus efficitur orci at volutpat. Nam iaculis risus ut laoreet ullamcorper. Aliquam a diam id magna aliquam eleifend. Aliquam erat volutpat. Aenean eu ante et orci maximus lacinia. Suspendisse et felis ipsum. Sed ut nisl eget urna luctus blandit ut sit amet neque. Cras vel dui ut elit bibendum tincidunt. This is a test verse: John 1:3-4.\nUt arcu ex, convallis a est id, porttitor pharetra leo. Ut lobortis nisi nisi, at semper elit tincidunt nec. Ut commodo dictum vehicula. Phasellus eget ligula purus. Duis eget tortor sed arcu tincidunt condimentum in vel orci. Pellentesque ut risus est. Vestibulum sed massa laoreet, pharetra metus ut, interdum enim. Morbi placerat, tellus quis venenatis fringilla, diam tellus tincidunt urna, eu luctus dolor risus quis felis. Proin semper tortor vitae semper rutrum. Mauris fermentum, libero sed viverra laoreet, purus purus mollis diam, eget congue elit dolor at odio. Nulla commodo arcu ex. In at ligula at lectus dignissim euismod. Duis faucibus metus a aliquam dignissim. Maecenas dignissim lacinia est, ut iaculis enim suscipit non. Quisque condimentum maximus eros id vestibulum.\n\n\n\n\n\n\nRecent Reading\n\n\n\n\nCold Case Christianity - J. Warner Wallace\nMere Christianity - C.S. Lewis\nTest Here - Another Book Author\n\n\n\nCurabitur elementum velit ut pretium semper. Praesent semper convallis dui ut sagittis. Morbi eu est quam. Sed sodales, ligula sed rhoncus iaculis, ipsum elit condimentum lacus, id pharetra diam nulla eu odio. Duis pulvinar suscipit ex. Phasellus quis tempus felis. Vestibulum mattis imperdiet sodales. Cras finibus porta maximus. Quisque dictum mauris vel ipsum ullamcorper elementum. Sed vitae dolor non neque ullamcorper pulvinar. Mauris tincidunt quam in mi imperdiet euismod. Vestibulum eget enim nunc.\n\n\n\n\n\n\nTest Note\n\n\n\nNote that this is a test note callout block here.\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |&gt;\n  mutate(\n    bill_ratio = bill_depth_mm / bill_length_mm,\n    bill_area  = bill_depth_mm * bill_length_mm\n  )\n\n\nDuis nisl tortor, consectetur sed hendrerit at, dictum at odio. Sed vel arcu non nibh ultrices blandit eget et nisl. Quisque feugiat, tellus sit amet suscipit pulvinar, est orci tristique quam, non interdum dui turpis vel nisi. Mauris at erat ut mi vestibulum finibus. Mauris vitae eleifend lacus. Cras condimentum luctus orci, quis fermentum dolor suscipit fringilla. Aenean porttitor placerat libero eu accumsan. Nam nec turpis feugiat, efficitur lectus at, mollis velit.\nBlah blah,\nJacob Larkin\nJoin My Support Team\n\n\n\n\nThis is a test footnote here.↩︎\nAuthorson, The Ultimate Test Citation Book.↩︎\n\n\n\nReferences\n\n\n\nAuthorson, Steve J. The Ultimate Test Citation Book. Publisherville, NY: The Test Citation Company, 1995."
+  }
+]

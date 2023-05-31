@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Blog Test</title>
+<link>https://todofixme.com/site/index.html</link>
+<atom:link href="https://todofixme.com/site/index.xml" rel="self" type="application/rss+xml"/>
+<description>Test description fix me</description>
+<generator>quarto-99.9.9</generator>
+<lastBuildDate>Wed, 31 May 2023 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>May 2023 Update</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://todofixme.com/site/posts/post-with-code/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<!-- ![](ratio-christi-logo.png) -->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://ratiochristi.org"><img src="https://todofixme.com/site/posts/post-with-code/ratio-christi-logo.webp" class="img-fluid figure-img" alt="Ratio Christi Logo"></a></p>
+</figure>
+</div>
+<p>Hello friends,</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem, tristique tempor tortor.<sup>1</sup></p>
+<p>Test Authorson writes:</p>
+<blockquote class="blockquote">
+<p>Here is a Quote I found the other day. It is a fairly long quote that I am going to include here. One more line and then It will probably good. Here is That final line.<sup>2</sup></p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem, tristique tempor tortor.</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> IPython.display <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> Markdown</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> tabulate <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> tabulate</span>
+<span id="cb1-3">table <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> [[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Sun"</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">696000</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1989100000</span>],</span>
+<span id="cb1-4">         [<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Earth"</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6371</span>,<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5973.6</span>],</span>
+<span id="cb1-5">         [<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Moon"</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1737</span>,<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">73.5</span>],</span>
+<span id="cb1-6">         [<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mars"</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3390</span>,<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">641.85</span>]]</span>
+<span id="cb1-7">Markdown(tabulate(</span>
+<span id="cb1-8">  table, </span>
+<span id="cb1-9">  headers<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Planet"</span>,<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"R (km)"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"mass (x 10^29 kg)"</span>]</span>
+<span id="cb1-10">))</span></code></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<div id="tbl-planet-measures" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;1: Planets</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Planet</th>
+<th style="text-align: right;">R (km)</th>
+<th style="text-align: right;">mass (x 10^29 kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Sun</td>
+<td style="text-align: right;">696000</td>
+<td style="text-align: right;">1.9891e+09</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Earth</td>
+<td style="text-align: right;">6371</td>
+<td style="text-align: right;">5973.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Moon</td>
+<td style="text-align: right;">1737</td>
+<td style="text-align: right;">73.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mars</td>
+<td style="text-align: right;">3390</td>
+<td style="text-align: right;">641.85</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>Fusce eget nisl lobortis leo porta dapibus. Nam interdum semper pretium. Pellentesque lorem est, porttitor sit amet nunc vitae, tempus semper augue. Nam dictum lorem orci, vitae feugiat augue suscipit non. Sed vel quam eu sapien aliquet mattis. Proin dapibus massa dolor, sit amet viverra magna accumsan quis. Praesent cursus efficitur orci at volutpat. Nam iaculis risus ut laoreet ullamcorper. Aliquam a diam id magna aliquam eleifend. Aliquam erat volutpat. Aenean eu ante et orci maximus lacinia. Suspendisse et felis ipsum. Sed ut nisl eget urna luctus blandit ut sit amet neque. Cras vel dui ut elit bibendum tincidunt. This is a test verse: John 1:3-4.</p>
+<p>Ut arcu ex, convallis a est id, porttitor pharetra leo. Ut lobortis nisi nisi, at semper elit tincidunt nec. Ut commodo dictum vehicula. Phasellus eget ligula purus. Duis eget tortor sed arcu tincidunt condimentum in vel orci. Pellentesque ut risus est. Vestibulum sed massa laoreet, pharetra metus ut, interdum enim. Morbi placerat, tellus quis venenatis fringilla, diam tellus tincidunt urna, eu luctus dolor risus quis felis. Proin semper tortor vitae semper rutrum. Mauris fermentum, libero sed viverra laoreet, purus purus mollis diam, eget congue elit dolor at odio. Nulla commodo arcu ex. In at ligula at lectus dignissim euismod. Duis faucibus metus a aliquam dignissim. Maecenas dignissim lacinia est, ut iaculis enim suscipit non. Quisque condimentum maximus eros id vestibulum.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Recent Reading
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><em>Cold Case Christianity</em> - J. Warner Wallace</li>
+<li><em>Mere Christianity</em> - C.S. Lewis</li>
+<li><em>Test Here</em> - Another Book Author</li>
+</ul>
+</div>
+</div>
+<p>Curabitur elementum velit ut pretium semper. Praesent semper convallis dui ut sagittis. Morbi eu est quam. Sed sodales, ligula sed rhoncus iaculis, ipsum elit condimentum lacus, id pharetra diam nulla eu odio. Duis pulvinar suscipit ex. Phasellus quis tempus felis. Vestibulum mattis imperdiet sodales. Cras finibus porta maximus. Quisque dictum mauris vel ipsum ullamcorper elementum. Sed vitae dolor non neque ullamcorper pulvinar. Mauris tincidunt quam in mi imperdiet euismod. Vestibulum eget enim nunc.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Test Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that this is a test note callout block here.</p>
+<div class="sourceCode" id="annotated-cell-2" style="background: #f1f3f5;"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span>
+<span id="annotated-cell-2-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(palmerpenguins)</span>
+<span id="annotated-cell-2-3">penguins <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span></span>
+<span id="annotated-cell-2-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(</span>
+<span id="annotated-cell-2-5">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">bill_ratio =</span> bill_depth_mm <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> bill_length_mm,</span>
+<span id="annotated-cell-2-6">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">bill_area  =</span> bill_depth_mm <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> bill_length_mm</span>
+<span id="annotated-cell-2-7">  )</span></code></pre></div>
+</div>
+</div>
+<p>Duis nisl tortor, consectetur sed hendrerit at, dictum at odio. Sed vel arcu non nibh ultrices blandit eget et nisl. Quisque feugiat, tellus sit amet suscipit pulvinar, est orci tristique quam, non interdum dui turpis vel nisi. Mauris at erat ut mi vestibulum finibus. Mauris vitae eleifend lacus. Cras condimentum luctus orci, quis fermentum dolor suscipit fringilla. Aenean porttitor placerat libero eu accumsan. Nam nec turpis feugiat, efficitur lectus at, mollis velit.</p>
+<p><em>Blah blah,</em><br>
+<em>Jacob Larkin</em></p>
+<p>Join My Support Team</p>
+
+<aside id="footnotes" class="footnotes footnotes-end-of-document">
+<hr>
+<ol>
+<li id="fn1"><p>This is a test footnote here.↩︎</p></li>
+<li id="fn2"><p><span class="citation" data-cites="test_citation">@test_citation</span>↩︎</p></li>
+</ol>
+</aside>
+
+<div id="quarto-appendix" class="default"><section id="references" class="level1 unnumbered appendix"><h2 class="anchored quarto-appendix-heading">References</h2><div class="quarto-appendix-contents">
+
+<div id="refs">
+
+</div>
+
+
+</div></section></div> ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://todofixme.com/site/posts/post-with-code/index.html</guid>
+  <pubDate>Wed, 31 May 2023 06:00:00 GMT</pubDate>
+  <media:content url="https://todofixme.com/site/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Welcome To My Blog</title>
+  <dc:creator>Tristan O&#39;Malley</dc:creator>
+  <link>https://todofixme.com/site/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://todofixme.com/site/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://todofixme.com/site/posts/welcome/index.html</guid>
+  <pubDate>Sun, 28 May 2023 06:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
