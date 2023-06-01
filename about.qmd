@@ -19,3 +19,4 @@ about:
 About this blog
 
 test
+#gitignore

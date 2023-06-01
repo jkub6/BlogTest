@@ -4,7 +4,7 @@ declare -A mapArr
 
 # mac users: use gsed instead of sed
 if [[ "$1" == "clean" ]]; then
-    eval "sed '/#gitignore$/d'"
+    eval "sd '^::: *\{\.notes\}(.|\n)*?:::$' ''"
 elif [[ "$1" == "smudge" ]]; then
     eval "cat"
 else  
