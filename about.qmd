@@ -18,17 +18,3 @@ about:
 
 About this blog
 
-test
-#gitignore
-
-develop
-
-
-
-
-
-
-
-
-develop
-
