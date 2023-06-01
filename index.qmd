@@ -16,7 +16,8 @@ test
 
 
 test3
-#gitignore
 test2
 
 
+blah
+clean
