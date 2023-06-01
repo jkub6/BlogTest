@@ -2,11 +2,11 @@
 title: 'May 2023 Update'
 author: 'Jacob Larkin'
 date: "2023-05-31"
-categories: [news, code, analysis]
+categories: [newsletter]
 image: "image.jpg"
 ---
 
-<!-- ![](ratio-christi-logo.png) -->
+
 [![](ratio-christi-logo.webp){fig-alt='Ratio Christi Logo'}](https://ratiochristi.org)
 
 

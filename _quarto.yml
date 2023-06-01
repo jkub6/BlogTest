@@ -5,7 +5,7 @@ project:
 
 website:
   title: 'Blog Test'
-  site-url: https://todofixme.com/site
+  site-url: https://jkub6.github.io/BlogTest
   description: 'Test description fix me'
   navbar:
     right:
@@ -21,7 +21,7 @@ website:
   # repo-actions: [edit, issue]
   page-navigation: true
   page-footer:
-    center: 'Join My Support Team'
+    center: '<a href="https://give.ratiochristi.org/missionary/jake-larkin">Join My Support Team</a>'
     border: true
   body-header: |
     <script>
