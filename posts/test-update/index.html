@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2023-05-28">
+<meta name="author" content="Jacob Larkin">
+<meta name="dcterms.date" content="2023-06-01">
 
-<title>Blog Test - Welcome To My Blog</title>
+<title>Blog Test - Test June 2023 Update</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -82,18 +135,19 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/index.html" rel="" target="">
+ <span class="menu-text">Posts</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
-</i> 
- <span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -104,6 +158,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -113,9 +172,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">Test June 2023 Update</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+                <div class="quarto-category">newsletter</div>
+                <div class="quarto-category">test</div>
               </div>
                   </div>
   </div>
@@ -126,14 +186,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
+               <p>Jacob Larkin </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 28, 2023</p>
+        <p class="date">June 1, 2023</p>
       </div>
     </div>
     
@@ -180,13 +240,131 @@ var refTagger = {
     g.nonce = refTagger.settings.nonce;
     s.parentNode.insertBefore(g, s);
 }(document, "script"));
-</script><p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+</script><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://ratiochristi.org"><img src="ratio-christi-logo.webp" class="img-fluid figure-img" alt="Ratio Christi Logo"></a></p>
+</figure>
+</div>
+<p>Hello friends,</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem, tristique tempor tortor.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Test Authorson writes:</p>
+<blockquote class="blockquote">
+<p>Here is a Quote I found the other day. It is a fairly long quote that I am going to include here. One more line and then It will probably good. Here is That final line.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia dui quis tortor egestas luctus. Mauris sed nunc eu justo posuere ullamcorper. Donec ligula ante, lacinia ut lacus eget, rutrum condimentum turpis. Phasellus sit amet sapien nec mi dapibus fermentum vitae non felis. Donec id nulla a dolor lobortis ullamcorper. Fusce ullamcorper eros eros, sed ultrices massa varius sed. Nulla condimentum non libero sit amet dapibus. Nulla quis ultrices lorem, tristique tempor tortor.</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> Markdown</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tabulate <span class="im">import</span> tabulate</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>table <span class="op">=</span> [[<span class="st">"Sun"</span>,<span class="dv">696000</span>,<span class="dv">1989100000</span>],</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         [<span class="st">"Earth"</span>,<span class="dv">6371</span>,<span class="fl">5973.6</span>],</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>         [<span class="st">"Moon"</span>,<span class="dv">1737</span>,<span class="fl">73.5</span>],</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>         [<span class="st">"Mars"</span>,<span class="dv">3390</span>,<span class="fl">641.85</span>]]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Markdown(tabulate(</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  table, </span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  headers<span class="op">=</span>[<span class="st">"Planet"</span>,<span class="st">"R (km)"</span>, <span class="st">"mass (x 10^29 kg)"</span>]</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="5">
+<div id="tbl-planet-measures" class="anchored">
+<table class="table table-sm table-striped small">
+<caption>Table&nbsp;1: Planets</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Planet</th>
+<th style="text-align: right;">R (km)</th>
+<th style="text-align: right;">mass (x 10^29 kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Sun</td>
+<td style="text-align: right;">696000</td>
+<td style="text-align: right;">1.9891e+09</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Earth</td>
+<td style="text-align: right;">6371</td>
+<td style="text-align: right;">5973.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Moon</td>
+<td style="text-align: right;">1737</td>
+<td style="text-align: right;">73.5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Mars</td>
+<td style="text-align: right;">3390</td>
+<td style="text-align: right;">641.85</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<p>Fusce eget nisl lobortis leo porta dapibus. Nam interdum semper pretium. Pellentesque lorem est, porttitor sit amet nunc vitae, tempus semper augue. Nam dictum lorem orci, vitae feugiat augue suscipit non. Sed vel quam eu sapien aliquet mattis. Proin dapibus massa dolor, sit amet viverra magna accumsan quis. Praesent cursus efficitur orci at volutpat. Nam iaculis risus ut laoreet ullamcorper. Aliquam a diam id magna aliquam eleifend. Aliquam erat volutpat. Aenean eu ante et orci maximus lacinia. Suspendisse et felis ipsum. Sed ut nisl eget urna luctus blandit ut sit amet neque. Cras vel dui ut elit bibendum tincidunt. This is a test verse: John 1:3-4.</p>
+<p>Ut arcu ex, convallis a est id, porttitor pharetra leo. Ut lobortis nisi nisi, at semper elit tincidunt nec. Ut commodo dictum vehicula. Phasellus eget ligula purus. Duis eget tortor sed arcu tincidunt condimentum in vel orci. Pellentesque ut risus est. Vestibulum sed massa laoreet, pharetra metus ut, interdum enim. Morbi placerat, tellus quis venenatis fringilla, diam tellus tincidunt urna, eu luctus dolor risus quis felis. Proin semper tortor vitae semper rutrum. Mauris fermentum, libero sed viverra laoreet, purus purus mollis diam, eget congue elit dolor at odio. Nulla commodo arcu ex. In at ligula at lectus dignissim euismod. Duis faucibus metus a aliquam dignissim. Maecenas dignissim lacinia est, ut iaculis enim suscipit non. Quisque condimentum maximus eros id vestibulum.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Recent Reading
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><em>Cold Case Christianity</em> - J. Warner Wallace</li>
+<li><em>Mere Christianity</em> - C.S. Lewis</li>
+<li><em>Test Here</em> - Another Book Author</li>
+</ul>
+</div>
+</div>
+<p>Here is a test image:</p>
+<p><img src="test-card.webp" class="img-fluid" alt="Test Card"></p>
+<p>Curabitur elementum velit ut pretium semper. Praesent semper convallis dui ut sagittis. Morbi eu est quam. Sed sodales, ligula sed rhoncus iaculis, ipsum elit condimentum lacus, id pharetra diam nulla eu odio. Duis pulvinar suscipit ex. Phasellus quis tempus felis. Vestibulum mattis imperdiet sodales. Cras finibus porta maximus. Quisque dictum mauris vel ipsum ullamcorper elementum. Sed vitae dolor non neque ullamcorper pulvinar. Mauris tincidunt quam in mi imperdiet euismod. Vestibulum eget enim nunc.</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Test Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that this is a test note callout block here.</p>
+<div class="sourceCode" id="annotated-cell-1"><pre class="sourceCode r code-annotation-code code-with-copy"><code class="sourceCode r"><span id="annotated-cell-1-1"><a href="#annotated-cell-1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="annotated-cell-1-2"><a href="#annotated-cell-1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
+<span id="annotated-cell-1-3"><a href="#annotated-cell-1-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">|&gt;</span></span>
+<span id="annotated-cell-1-4"><a href="#annotated-cell-1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="annotated-cell-1-5"><a href="#annotated-cell-1-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">bill_ratio =</span> bill_depth_mm <span class="sc">/</span> bill_length_mm,</span>
+<span id="annotated-cell-1-6"><a href="#annotated-cell-1-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">bill_area  =</span> bill_depth_mm <span class="sc">*</span> bill_length_mm</span>
+<span id="annotated-cell-1-7"><a href="#annotated-cell-1-7" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<p>Duis nisl tortor, consectetur sed hendrerit at, dictum at odio. Sed vel arcu non nibh ultrices blandit eget et nisl. Quisque feugiat, tellus sit amet suscipit pulvinar, est orci tristique quam, non interdum dui turpis vel nisi. Mauris at erat ut mi vestibulum finibus. Mauris vitae eleifend lacus. Cras condimentum luctus orci, quis fermentum dolor suscipit fringilla. Aenean porttitor placerat libero eu accumsan. Nam nec turpis feugiat, efficitur lectus at, mollis velit.</p>
+<p><em>Blah blah,</em><br>
+<em>Jacob Larkin</em></p>
+<p>Join My Support Team</p>
 
 
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section id="references" class="level1 unnumbered appendix"><h2 class="anchored quarto-appendix-heading">References</h2><div class="quarto-appendix-contents">
+
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-test_citation" class="csl-entry" role="listitem">
+Authorson, Steve J. <em>The Ultimate Test Citation Book</em>. Publisherville, NY: The Test Citation Company, 1995.
+</div>
+</div>
+
+
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This is a test footnote here.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><span class="citation" data-cites="test_citation">Authorson, <a href="#ref-test_citation" role="doc-biblioref"><em>The Ultimate Test Citation Book</em></a>.</span><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -426,7 +604,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center"><a href="https://give.ratiochristi.org/missionary/jake-larkin">Join My Support Team</a></div>
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About Me</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://give.ratiochristi.org/missionary/jake-larkin">Join My Support Team</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://ratiochristi.org">Ratio Christi</a>
+  </li>  
+</ul>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/jkub6/BlogTest/edit/main/posts/test-update/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/jkub6/BlogTest/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right">
       &nbsp;
     </div>

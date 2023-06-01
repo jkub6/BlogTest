@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Blog Test</title>
-<link>https://jkub6.github.io/BlogTest/index.html</link>
-<atom:link href="https://jkub6.github.io/BlogTest/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://jkub6.github.io/BlogTest/posts/index.html</link>
+<atom:link href="https://jkub6.github.io/BlogTest/posts/index.xml" rel="self" type="application/rss+xml"/>
 <description>Test description fix me TODO</description>
 <generator>quarto-1.3.361</generator>
-<lastBuildDate>Wed, 31 May 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Jun 2023 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>May 2023 Update</title>
+  <title>Test June 2023 Update</title>
   <dc:creator>Jacob Larkin</dc:creator>
-  <link>https://jkub6.github.io/BlogTest/posts/post-with-code/index.html</link>
+  <link>https://jkub6.github.io/BlogTest/posts/test-update/index.html</link>
   <description><![CDATA[ 
 
 
@@ -51,7 +51,7 @@ var refTagger = {
 }(document, "script"));
 </script><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://ratiochristi.org"><img src="https://jkub6.github.io/BlogTest/posts/post-with-code/ratio-christi-logo.webp" class="img-fluid figure-img" alt="Ratio Christi Logo"></a></p>
+<p><a href="https://ratiochristi.org"><img src="https://jkub6.github.io/BlogTest/posts/test-update/ratio-christi-logo.webp" class="img-fluid figure-img" alt="Ratio Christi Logo"></a></p>
 </figure>
 </div>
 <p>Hello friends,</p>
@@ -114,7 +114,7 @@ font-style: inherit;">"R (km)"</span>, <span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">"mass (x 10^29 kg)"</span>]</span>
 <span id="cb1-10">))</span></code></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="3">
+<div class="cell-output cell-output-display" data-execution_count="5">
 <div id="tbl-planet-measures" class="anchored">
 <table class="table table-sm table-striped small">
 <caption>Table&nbsp;1: Planets</caption>
@@ -170,6 +170,8 @@ Recent Reading
 </ul>
 </div>
 </div>
+<p>Here is a test image:</p>
+<p><img src="https://jkub6.github.io/BlogTest/posts/test-update/test-card.webp" class="img-fluid" alt="Test Card"></p>
 <p>Curabitur elementum velit ut pretium semper. Praesent semper convallis dui ut sagittis. Morbi eu est quam. Sed sodales, ligula sed rhoncus iaculis, ipsum elit condimentum lacus, id pharetra diam nulla eu odio. Duis pulvinar suscipit ex. Phasellus quis tempus felis. Vestibulum mattis imperdiet sodales. Cras finibus porta maximus. Quisque dictum mauris vel ipsum ullamcorper elementum. Sed vitae dolor non neque ullamcorper pulvinar. Mauris tincidunt quam in mi imperdiet euismod. Vestibulum eget enim nunc.</p>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -231,58 +233,10 @@ Authorson, Steve J. <em>The Ultimate Test Citation Book</em>. Publisherville, NY
 </ol>
 </section></div> ]]></description>
   <category>newsletter</category>
-  <guid>https://jkub6.github.io/BlogTest/posts/post-with-code/index.html</guid>
-  <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://jkub6.github.io/BlogTest/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://jkub6.github.io/BlogTest/posts/welcome/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<script>
-var refTagger = {
-    settings: {
-        bibleVersion: "ESV",
-        caseInsensitive: !false,
-        noSearchTagNames: [],
-        roundCorners: true,
-        socialSharing: ["google"],
-        tagChapters: true,
-        customStyle : {
-            heading: {
-                backgroundColor : "#f8f9fa",
-                color : "#000000"
-            },
-            body   : {
-                color : "#000000",
-                fontSize: "18px"
-            }
-        }
-    }
-};
-(function(d, t) {
-    var n=d.querySelector("[nonce]");
-    refTagger.settings.nonce = n && (n.nonce||n.getAttribute("nonce"));
-    var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-    g.src = "https://api.reftagger.com/v2/RefTagger.js";
-    g.nonce = refTagger.settings.nonce;
-    s.parentNode.insertBefore(g, s);
-}(document, "script"));
-</script><p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://jkub6.github.io/BlogTest/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://jkub6.github.io/BlogTest/posts/welcome/index.html</guid>
-  <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
+  <category>test</category>
+  <guid>https://jkub6.github.io/BlogTest/posts/test-update/index.html</guid>
+  <pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://jkub6.github.io/BlogTest/posts/test-update/test.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>
