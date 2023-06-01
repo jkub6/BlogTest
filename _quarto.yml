@@ -14,8 +14,6 @@ website:
   site-path: '/BlogTest/'
   description: 'Test description fix me TODO'
   navbar:
-    search: true
-    right:
     # logo: ratio-christi-logo-small.webp
     # logo-href: https://ratiochristi.org
     left:
