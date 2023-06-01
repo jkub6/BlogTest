@@ -1,13 +1,20 @@
 project:
   title: 'Blog Test'
   type: website
-  output-dir: "_build"
+  output-dir: _build
+  render:
+    - 404.qmd
+    - index.qmd
+    - about.qmd
+    - posts/**
 
 website:
   title: 'Blog Test'
   site-url: https://jkub6.github.io/BlogTest
-  description: 'Test description fix me'
+  site-path: '/BlogTest/'
+  description: 'Test description fix me TODO'
   navbar:
+    search: true
     right:
       - about.qmd
       - icon: github
