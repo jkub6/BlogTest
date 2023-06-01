@@ -1,9 +1,9 @@
 ---
-title: 'May 2023 Update'
+title: 'Test June 2023 Update'
 author: 'Jacob Larkin'
-date: "2023-05-31"
-categories: [newsletter]
-image: "image.jpg"
+date: "2023-06-01"
+categories: [newsletter, test]
+image: "test.webp"
 ---
 
 
@@ -79,6 +79,10 @@ vestibulum.
 - *Mere Christianity* - C.S. Lewis
 - *Test Here* - Another Book Author
 :::
+
+Here is a test image:
+
+![](test-card.webp){fig-alt='Test Card'}
 
 Curabitur elementum velit ut pretium semper. Praesent semper convallis dui ut
 sagittis. Morbi eu est quam. Sed sodales, ligula sed rhoncus iaculis, ipsum

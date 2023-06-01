@@ -1,12 +1,21 @@
 project:
   title: 'Blog Test'
   type: website
+<<<<<<< HEAD
   output-dir: _build
   render:
     - 404.qmd
     - index.qmd
     - about.qmd
     - posts/**
+=======
+  output-dir: "_build"
+  render:
+    - "index.qmd"
+    - "404.qmd"
+    - "about.qmd"
+    - "posts/**"
+>>>>>>> develop
 
 website:
   title: 'Blog Test'
@@ -14,21 +23,40 @@ website:
   site-path: '/BlogTest/'
   description: 'Test description fix me TODO'
   navbar:
+<<<<<<< HEAD
     search: true
     right:
+=======
+    # logo: ratio-christi-logo-small.webp
+    # logo-href: https://ratiochristi.org
+    left:
+      - posts/index.qmd
+>>>>>>> develop
       - about.qmd
+    right:
       - icon: github
         href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
       - icon: rss
         href: index.xml
-  # reader-mode: true
-  # repo-url: https://github.com/jkub6/website
-  # repo-actions: [edit, issue]
+  # sidebar:
+  #   - id: posts
+  #     title: "Posts"
+  #     style: floating
+  #     background: light
+  #     contents:
+  #       auto: posts
+  reader-mode: true
+  repo-url: https://github.com/jkub6/BlogTest
+  repo-actions: [edit, issue]
   page-navigation: true
   page-footer:
-    center: '<a href="https://give.ratiochristi.org/missionary/jake-larkin">Join My Support Team</a>'
+    center:
+      - text: About Me
+        href: about.qmd
+      - text: Join My Support Team
+        href: https://give.ratiochristi.org/missionary/jake-larkin
+      - text: Ratio Christi
+        href: https://ratiochristi.org
     border: true
   body-header: |
     <script>
