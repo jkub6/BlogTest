@@ -1,1 +1,1 @@
-Sitemap: https://todofixme.com/site/sitemap.xml
+Sitemap: https://jkub6.github.io/BlogTest/sitemap.xml

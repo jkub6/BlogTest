@@ -6,21 +6,20 @@
       version="2.0">
 <channel>
 <title>Blog Test</title>
-<link>https://todofixme.com/site/index.html</link>
-<atom:link href="https://todofixme.com/site/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://jkub6.github.io/BlogTest/index.html</link>
+<atom:link href="https://jkub6.github.io/BlogTest/index.xml" rel="self" type="application/rss+xml"/>
 <description>Test description fix me</description>
 <generator>quarto-1.3.361</generator>
 <lastBuildDate>Wed, 31 May 2023 00:00:00 GMT</lastBuildDate>
 <item>
   <title>May 2023 Update</title>
   <dc:creator>Jacob Larkin</dc:creator>
-  <link>https://todofixme.com/site/posts/post-with-code/index.html</link>
+  <link>https://jkub6.github.io/BlogTest/posts/post-with-code/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<!-- ![](ratio-christi-logo.png) -->
 <script>
 var refTagger = {
     settings: {
@@ -52,7 +51,7 @@ var refTagger = {
 }(document, "script"));
 </script><div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://ratiochristi.org"><img src="https://todofixme.com/site/posts/post-with-code/ratio-christi-logo.webp" class="img-fluid figure-img" alt="Ratio Christi Logo"></a></p>
+<p><a href="https://ratiochristi.org"><img src="https://jkub6.github.io/BlogTest/posts/post-with-code/ratio-christi-logo.webp" class="img-fluid figure-img" alt="Ratio Christi Logo"></a></p>
 </figure>
 </div>
 <p>Hello friends,</p>
@@ -231,17 +230,15 @@ Authorson, Steve J. <em>The Ultimate Test Citation Book</em>. Publisherville, NY
 <li id="fn2"><p><span class="citation" data-cites="test_citation">Authorson, <em>The Ultimate Test Citation Book</em>.</span>↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://todofixme.com/site/posts/post-with-code/index.html</guid>
+  <category>newsletter</category>
+  <guid>https://jkub6.github.io/BlogTest/posts/post-with-code/index.html</guid>
   <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://todofixme.com/site/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://jkub6.github.io/BlogTest/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://todofixme.com/site/posts/welcome/index.html</link>
+  <link>https://jkub6.github.io/BlogTest/posts/welcome/index.html</link>
   <description><![CDATA[ 
 
 
@@ -277,14 +274,14 @@ var refTagger = {
     s.parentNode.insertBefore(g, s);
 }(document, "script"));
 </script><p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://todofixme.com/site/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://jkub6.github.io/BlogTest/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 
 
  ]]></description>
   <category>news</category>
-  <guid>https://todofixme.com/site/posts/welcome/index.html</guid>
+  <guid>https://jkub6.github.io/BlogTest/posts/welcome/index.html</guid>
   <pubDate>Sun, 28 May 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
