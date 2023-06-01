@@ -2,8 +2,3 @@
 title: "Index"
 ---
 
-<<<<<<< HEAD
-=======
-test
-
->>>>>>> develop

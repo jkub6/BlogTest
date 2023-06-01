@@ -1,21 +1,12 @@
 project:
   title: 'Blog Test'
   type: website
-<<<<<<< HEAD
-  output-dir: _build
-  render:
-    - 404.qmd
-    - index.qmd
-    - about.qmd
-    - posts/**
-=======
   output-dir: "_build"
   render:
     - "index.qmd"
     - "404.qmd"
     - "about.qmd"
     - "posts/**"
->>>>>>> develop
 
 website:
   title: 'Blog Test'
@@ -23,15 +14,12 @@ website:
   site-path: '/BlogTest/'
   description: 'Test description fix me TODO'
   navbar:
-<<<<<<< HEAD
     search: true
     right:
-=======
     # logo: ratio-christi-logo-small.webp
     # logo-href: https://ratiochristi.org
     left:
       - posts/index.qmd
->>>>>>> develop
       - about.qmd
     right:
       - icon: github
