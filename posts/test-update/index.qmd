@@ -3,7 +3,7 @@ title: 'Test June 2023 Update'
 author: 'Jacob Larkin'
 date: "2023-06-01"
 categories: [newsletter, test]
-image: "test.webp"
+image: "test-card.webp"
 ---
 
 

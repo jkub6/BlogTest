@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 declare -A mapArr
 
 # mac users: use gsed instead of sed
